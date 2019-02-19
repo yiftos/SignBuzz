@@ -7,7 +7,6 @@ C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz\obj\Debug\netstandard2.0\M
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz\obj\Debug\netstandard2.0\SignBuzz.csproj.CoreCompileInputs.cache
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz\obj\Debug\netstandard2.0\SignBuzz.AssemblyInfoInputs.cache
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz\obj\Debug\netstandard2.0\SignBuzz.AssemblyInfo.cs
-C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz\obj\Debug\netstandard2.0\SignBuzz.dll
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz\obj\Debug\netstandard2.0\SignBuzz.pdb
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz\obj\Debug\netstandard2.0\EndSection\EndSectionPage.xaml.g.cs
@@ -19,3 +18,5 @@ C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz\obj\Debug\netstandard2.0\E
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz\obj\Debug\netstandard2.0\EndSection\EndSection3Page.xaml.g.cs
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz\obj\Debug\netstandard2.0\StartSection\StartSection2Page.xaml.g.cs
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz\obj\Debug\netstandard2.0\StartSection\StartSection3Page.xaml.g.cs
+C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz\obj\Debug\netstandard2.0\MediaPage.xaml.g.cs
+C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz\obj\Debug\netstandard2.0\XamlC.stamp

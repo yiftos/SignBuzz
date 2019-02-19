@@ -108,6 +108,9 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "SignBuzz.Android.dll" comes first in this list. */
 		"SignBuzz.Android.dll",
 		"FormsViewGroup.dll",
+		"Plugin.CurrentActivity.dll",
+		"Plugin.Media.dll",
+		"Plugin.Permissions.dll",
 		"SignBuzz.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

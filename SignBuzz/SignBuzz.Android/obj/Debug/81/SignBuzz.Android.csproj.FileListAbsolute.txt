@@ -53,6 +53,10 @@ C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\bin\Debug\System.I
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\bin\Debug\System.ComponentModel.Composition.pdb
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\bin\Debug\System.Web.Services.pdb
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\bin\Debug\Mono.Security.pdb
+C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\bin\Debug\SignBuzz.dll.mdb
+C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\res\xml\file_paths.xml
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\linksrc\SignBuzz.Android.pdb
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\linksrc\Mono.Android.pdb
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\linksrc\mscorlib.pdb
@@ -73,9 +77,6 @@ C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\links
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\linksrc\System.ComponentModel.Composition.pdb
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\linksrc\Mono.Security.pdb
-C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\bin\Debug\FormsViewGroup.dll.mdb
-C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\bin\Debug\SignBuzz.dll.mdb
-C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\linksrc\FormsViewGroup.dll.mdb
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\linksrc\SignBuzz.dll.mdb
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
@@ -102,6 +103,8 @@ C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\andro
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\android\assets\System.Xml.pdb
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz\bin\Debug\netstandard2.0\SignBuzz.dll
+C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\bin\Debug\SignBuzz.dll.mdb
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\linksrc\FormsViewGroup.dll.mdb
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\linksrc\SignBuzz.dll.mdb
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

@@ -17,7 +17,7 @@ namespace SignBuzz
         }
         async void OnNextPageButtonClicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new StartSection.StartSectionPage());
+            await Navigation.PushAsync(new MediaPage());
         }
 
     }
