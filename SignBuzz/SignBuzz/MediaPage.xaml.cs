@@ -7,6 +7,9 @@ using Plugin.Media;
 using Plugin.Media.Abstractions;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Microsoft.WindowsAzure.Storage;
+using System.IO;
+using System.Net.Http;
 
 namespace SignBuzz
 {
@@ -16,102 +19,116 @@ namespace SignBuzz
         public MediaPage()
         {
             InitializeComponent();
+        }
+        private MediaFile _mediaFile;
+        private string URL { get; set; }
 
-            takePhoto.Clicked += async (sender, args) =>
+        //Picture choose from device    
+        private async void btnSelectPic_Clicked(object sender, EventArgs e)
+        {
+            await CrossMedia.Current.Initialize();
+            if (!CrossMedia.Current.IsPickPhotoSupported)
             {
-
-                if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
-                {
-                    DisplayAlert("No Camera", ":( No camera available.", "OK");
-                    return;
-                }
-
-                var file = await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
-                {
-                    Directory = "Test",
-                    SaveToAlbum = true,
-                    CompressionQuality = 75,
-                    CustomPhotoSize = 50,
-                    PhotoSize = PhotoSize.MaxWidthHeight,
-                    MaxWidthHeight = 2000,
-                    DefaultCamera = CameraDevice.Front
-                });
-
-                if (file == null)
-                    return;
-
-                DisplayAlert("File Location", file.Path, "OK");
-
-                image.Source = ImageSource.FromStream(() =>
-                {
-                    var stream = file.GetStream();
-                    file.Dispose();
-                    return stream;
-                });
-            };
-
-            pickPhoto.Clicked += async (sender, args) =>
+                await DisplayAlert("Error", "This is not support on your device.", "OK");
+                return;
+            }
+            else
             {
-                if (!CrossMedia.Current.IsPickPhotoSupported)
+                var mediaOption = new PickMediaOptions()
                 {
-                    DisplayAlert("Photos Not Supported", ":( Permission not granted to photos.", "OK");
-                    return;
-                }
-                var file = await Plugin.Media.CrossMedia.Current.PickPhotoAsync(new Plugin.Media.Abstractions.PickMediaOptions
-                {
-                    PhotoSize = Plugin.Media.Abstractions.PhotoSize.Medium,
+                    PhotoSize = PhotoSize.Medium
+                };
+                _mediaFile = await CrossMedia.Current.PickPhotoAsync();
+                if (_mediaFile == null) return;
+                imageView.Source = ImageSource.FromStream(() => _mediaFile.GetStream());
+                UploadedUrl.Text = "Image URL:";
+            }
+        }
 
-                });
-
-
-                if (file == null)
-                    return;
-
-                image.Source = ImageSource.FromStream(() =>
-                {
-                    var stream = file.GetStream();
-                    file.Dispose();
-                    return stream;
-                });
-            };
-
-            takeVideo.Clicked += async (sender, args) =>
+        //Upload picture button    
+        private async void btnUpload_Clicked(object sender, EventArgs e)
+        {
+            if (_mediaFile == null)
             {
-                if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakeVideoSupported)
-                {
-                    DisplayAlert("No Camera", ":( No camera avaialble.", "OK");
-                    return;
-                }
+                await DisplayAlert("Error", "There was an error when trying to get your image.", "OK");
+                return;
+            }
+            else
+            {
+                UploadImage(_mediaFile.GetStream());
+            }
+        }
 
-                var file = await CrossMedia.Current.TakeVideoAsync(new Plugin.Media.Abstractions.StoreVideoOptions
+        //Take picture from camera    
+        private async void btnTakePic_Clicked(object sender, EventArgs e)
+        {
+
+            await CrossMedia.Current.Initialize();
+            if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
+            {
+                await DisplayAlert("No Camera", ":(No Camera available.)", "OK");
+                return;
+            }
+            else
+            {
+                _mediaFile = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
                 {
-                    Name = "video.mp4",
-                    Directory = "DefaultVideos",
+                    Directory = "Sample",
+                    Name = "myImage.jpg"
                 });
 
-                if (file == null)
-                    return;
-
-                DisplayAlert("Video Recorded", "Location: " + file.Path, "OK");
-
-                file.Dispose();
-            };
-
-            pickVideo.Clicked += async (sender, args) =>
-            {
-                if (!CrossMedia.Current.IsPickVideoSupported)
+                if (_mediaFile == null) return;
+                var mediaOption = new PickMediaOptions()
                 {
-                    DisplayAlert("Videos Not Supported", ":( Permission not granted to videos.", "OK");
-                    return;
-                }
-                var file = await CrossMedia.Current.PickVideoAsync();
+                    PhotoSize = PhotoSize.Medium
+                };
+                imageView.Source = ImageSource.FromStream(() => _mediaFile.GetStream());
+                
+                UploadedUrl.Text = "Image URL:";
+            }
+        }
+        private async void sendHttp_Clicked(object sender, EventArgs e)
+        {
+            string newUrl = URL.Replace("/", "`");
+            Console.WriteLine("http://13.95.106.120:443/process/img/" + newUrl);
+            var responseString = await App.client.GetStringAsync("http://13.95.106.120:443/process/img/" + newUrl);
+            Console.WriteLine(responseString);
+            UploadedUrl.Text = responseString;
+        }
+        //Upload to blob function    
+        private async void UploadImage(Stream stream)
+        {
+            Busy();
+            var account = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=group6;AccountKey=emLbRRuzA5x29nstt/9AU6hIcXYihpQnUsAIcIZvfIFukJxHE9Flm340+rItRN7XfEPsfwZ8pEXoxkIDZXxSHw==;EndpointSuffix=core.windows.net");
+            var client = account.CreateCloudBlobClient();
+            var container = client.GetContainerReference("images");
+            await container.CreateIfNotExistsAsync();
+            var name = Guid.NewGuid().ToString();
+            var blockBlob = container.GetBlockBlobReference($"{name}.png");
+            await blockBlob.UploadFromStreamAsync(stream);
+            URL = blockBlob.Uri.OriginalString;
+            UploadedUrl.Text = URL;
+            
+            NotBusy();
+            await DisplayAlert("Uploaded", "Image uploaded to Blob Storage Successfully!", "OK");
+        }
 
-                if (file == null)
-                    return;
+        public void Busy()
+        {
+            uploadIndicator.IsVisible = true;
+            uploadIndicator.IsRunning = true;
+            btnSelectPic.IsEnabled = false;
+            btnTakePic.IsEnabled = false;
+            btnUpload.IsEnabled = false;
+        }
 
-                DisplayAlert("Video Selected", "Location: " + file.Path, "OK");
-                file.Dispose();
-            };
+        public void NotBusy()
+        {
+            uploadIndicator.IsVisible = false;
+            uploadIndicator.IsRunning = false;
+            btnSelectPic.IsEnabled = true;
+            btnTakePic.IsEnabled = true;
+            btnUpload.IsEnabled = true;
         }
     }
 }

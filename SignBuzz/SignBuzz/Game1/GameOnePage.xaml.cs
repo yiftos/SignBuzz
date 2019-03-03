@@ -18,6 +18,10 @@ namespace SignBuzz.Game1
             this.num = num;
 		}
         int num;
+        async void takePicture(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MediaPage());
+        }
         async void OnNextPageButtonClicked(object sender, EventArgs e)
         {
             if (this.num == 5)

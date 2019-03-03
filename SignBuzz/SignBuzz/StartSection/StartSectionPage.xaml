@@ -7,7 +7,7 @@
             <Label Text="Instructions for Game One!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Button Clicked="OnNextPageButtonClicked" Text="Start Game One"></Button>
+            <Button x:Name="StartGame" Clicked="OnNextPageButtonClicked" Text="Start Game One"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

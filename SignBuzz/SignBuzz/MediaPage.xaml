@@ -1,22 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              x:Class="SignBuzz.MediaPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <ScrollView>
-                <StackLayout Spacing="10" Padding="10">
-                    <Button x:Name="takePhoto" Text="Take Photo"/>
-                    <Button x:Name="pickPhoto" Text="Pick Photo"/>
-                    <Button x:Name="takeVideo" Text="Take Video"/>
-                    <Button x:Name="pickVideo" Text="Pick Video"/>
-
-                    <Image x:Name="image"/>
-                </StackLayout>
-            </ScrollView>
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <Grid Margin="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Button x:Name="btnSelectPic" Grid.Row="0" Grid.Column="0" Text="Select picture" Clicked="btnSelectPic_Clicked" BackgroundColor="DodgerBlue" TextColor="White" />
+                    <Button x:Name="btnTakePic" Grid.Row="0" Grid.Column="1" Text="Take picture" Clicked="btnTakePic_Clicked" BackgroundColor="DodgerBlue" TextColor="White" />
+                </Grid>
+                <ffimageloading:CachedImage x:Name="imageView" HorizontalOptions="Center" VerticalOptions="Center"
+                    WidthRequest="300" HeightRequest="300"
+                    DownsampleToViewSize="true"/>
+                <ActivityIndicator x:Name="uploadIndicator" IsVisible="False" IsRunning="False" Color="DodgerBlue" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Button Grid.Row="0" Grid.Column="0" Text="Upload to Blob" Clicked="btnUpload_Clicked" x:Name="btnUpload" BackgroundColor="Green" TextColor="White" />
+                    <Button Grid.Row="0" Grid.Column="1" Text="send http" Clicked="sendHttp_Clicked" x:Name="sendHttp" BackgroundColor="Green" TextColor="White" />
+                </Grid>
+                <Editor x:Name="UploadedUrl" TextColor="Black" HeightRequest="85" Text="Image URL:" />
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
+

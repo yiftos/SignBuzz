@@ -7,6 +7,7 @@
             <Label Text="GameOnePage!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button Clicked="takePicture" Text="Press here to take a picture"></Button>
             <Button Text="Game One is on!" Clicked="OnNextPageButtonClicked"></Button>
         </StackLayout>
     </ContentPage.Content>

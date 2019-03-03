@@ -6,10 +6,18 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome To SignBuzz!" 
+        <Label x:Name="welcomeLabel"  Text="Welcome To SignBuzz!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
-        <Button Text="Start Learning" Clicked="OnNextPageButtonClicked"></Button>
+        <ActivityIndicator x:Name="uploadIndicator" IsVisible="False" IsRunning="False" Color="DodgerBlue" />
+        <Entry x:Name="nameEntry" Placeholder="Choose a nickname" />
+        <Button x:Name="Submit" Text="submit" MinimumHeightRequest="30"
+            Clicked="submit"/>
+        <Button x:Name="loginButton" Text="Sign in with Google" MinimumHeightRequest="30"
+            Clicked="loginButton_Clicked"/>
+        <Button x:Name="loginButtonFacebook" Text="Sign in with Facebook" MinimumHeightRequest="30"
+            Clicked="loginButton_Clicked_Facebook"/>
+        <Button x:Name="startLearning" Text="Start Learning" Clicked="OnNextPageButtonClicked"></Button>
     </StackLayout>
 
 </ContentPage>

@@ -12,7 +12,8 @@ namespace SignBuzz.StartSection
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class StartSectionPage : ContentPage
 	{
-		public StartSectionPage ()
+
+        public StartSectionPage ()
 		{
 			InitializeComponent ();
 		}

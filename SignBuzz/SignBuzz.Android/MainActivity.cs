@@ -6,17 +6,72 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Microsoft.WindowsAzure.MobileServices;
+using System.Threading.Tasks;
 namespace SignBuzz.Droid
 {
     [Activity(Label = "SignBuzz", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-    public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
+    public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity, IAuthenticate
     {
+        // Define a authenticated user.
+        private MobileServiceUser user;
+
+        public async Task<bool> Authenticate(bool google)
+        {
+            var success = false;
+            var message = string.Empty;
+            try
+            {
+                if (google)
+                {
+                    // Sign in with Facebook login using a server-managed flow.
+                    user = await MainUserManager.DefaultManager.CurrentClient.LoginAsync(this,
+                        MobileServiceAuthenticationProvider.Google, "signbuzz");
+                    if (user != null)
+                    {
+                        App.user = user;
+                        message = string.Format("you are now signed-in as {0}.",
+                            user.UserId);
+                        success = true;
+                    }
+                }
+                else
+                {
+                    // Sign in with Facebook login using a server-managed flow.
+                    user = await MainUserManager.DefaultManager.CurrentClient.LoginAsync(this,
+                        MobileServiceAuthenticationProvider.Facebook, "signbuzz");
+                    if (user != null)
+                    {
+                        App.user = user;
+                        message = string.Format("you are now signed-in as {0}.",
+                            user.UserId);
+                        success = true;
+                    }
+                }
+                
+            }
+            catch (Exception ex)
+            {
+                message = ex.Message;
+            }
+
+            // Display the success or failure message.
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.SetMessage(message);
+            builder.SetTitle("Sign-in result");
+            builder.Create().Show();
+
+            return success;
+        }
         protected override void OnCreate(Bundle savedInstanceState)
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
+            FFImageLoading.Forms.Platform.CachedImageRenderer.Init(enableFastRenderer: true);
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            // Initialize the authenticator before loading the app.
+            App.Init((IAuthenticate)this);
             LoadApplication(new App());
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Android.Content.PM.Permission[] grantResults)
