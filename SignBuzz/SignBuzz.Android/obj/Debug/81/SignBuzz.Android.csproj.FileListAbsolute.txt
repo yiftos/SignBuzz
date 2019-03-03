@@ -144,7 +144,5 @@ C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\andro
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz\bin\Debug\netstandard2.0\SignBuzz.dll
-C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\bin\Debug\SignBuzz.dll.mdb
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\linksrc\Microsoft.WindowsAzure.Storage.dll.mdb
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\linksrc\SignBuzz.dll.mdb
