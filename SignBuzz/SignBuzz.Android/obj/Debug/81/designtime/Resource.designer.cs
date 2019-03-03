@@ -2026,23 +2026,23 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x7F01000E
 			public const int design_snackbar_out = 2130771982;
 			
-			// aapt resource value: 0x7F070020
-			public const int EnterFromLeft = 2131165216;
+			// aapt resource value: 0x7F080020
+			public const int EnterFromLeft = 2131230752;
 			
-			// aapt resource value: 0x7F070021
-			public const int EnterFromRight = 2131165217;
+			// aapt resource value: 0x7F080021
+			public const int EnterFromRight = 2131230753;
 			
-			// aapt resource value: 0x7F070022
-			public const int ExitToLeft = 2131165218;
+			// aapt resource value: 0x7F080022
+			public const int ExitToLeft = 2131230754;
 			
-			// aapt resource value: 0x7F070023
-			public const int ExitToRight = 2131165219;
+			// aapt resource value: 0x7F080023
+			public const int ExitToRight = 2131230755;
 			
-			// aapt resource value: 0x7F070002
-			public const int slide_in_right = 2131165186;
+			// aapt resource value: 0x7F080002
+			public const int slide_in_right = 2131230722;
 			
-			// aapt resource value: 0x7F070003
-			public const int slide_out_left = 2131165187;
+			// aapt resource value: 0x7F080003
+			public const int slide_out_left = 2131230723;
 			
 			// aapt resource value: 0x7F01000F
 			public const int tooltip_enter = 2130771983;
@@ -3747,14 +3747,14 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x1
 			public const int cast_libraries_material_featurehighlight_text_header_color = 1;
 			
-			// aapt resource value: 0x7F040005
-			public const int colorAccent = 2130968581;
+			// aapt resource value: 0x7F050005
+			public const int colorAccent = 2131034117;
 			
-			// aapt resource value: 0x7F040003
-			public const int colorPrimary = 2130968579;
+			// aapt resource value: 0x7F050003
+			public const int colorPrimary = 2131034115;
 			
-			// aapt resource value: 0x7F040004
-			public const int colorPrimaryDark = 2130968580;
+			// aapt resource value: 0x7F050004
+			public const int colorPrimaryDark = 2131034116;
 			
 			// aapt resource value: 0x1
 			public const int common_google_signin_btn_text_dark = 1;
@@ -3849,8 +3849,8 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x7F06003A
 			public const int highlighted_text_material_light = 2131099706;
 			
-			// aapt resource value: 0x7F040002
-			public const int launcher_background = 2130968578;
+			// aapt resource value: 0x7F050002
+			public const int launcher_background = 2131034114;
 			
 			// aapt resource value: 0x7F06003B
 			public const int material_blue_grey_800 = 2131099707;
@@ -5153,8 +5153,8 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x1
 			public const int googleg_standard_color_18 = 1;
 			
-			// aapt resource value: 0x7F080002
-			public const int ic_arrow_back = 2131230722;
+			// aapt resource value: 0x7F010003
+			public const int ic_arrow_back = 2130771971;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -5933,6 +5933,9 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x1
 			public const int quantum_ic_volume_up_white_36 = 1;
 			
+			// aapt resource value: 0x7F010002
+			public const int splash = 2130771970;
+			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
 			
@@ -6075,11 +6078,11 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
-			// aapt resource value: 0x7F010175
-			public const int bottomtab.navarea = 2130772341;
+			// aapt resource value: 0x7F020175
+			public const int bottomtab.navarea = 2130837877;
 			
-			// aapt resource value: 0x7F010176
-			public const int bottomtab.tabbar = 2130772342;
+			// aapt resource value: 0x7F020176
+			public const int bottomtab.tabbar = 2130837878;
 			
 			// aapt resource value: 0x1
 			public const int button = 1;
@@ -6267,11 +6270,11 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x7F0C0032
 			public const int @fixed = 2131492914;
 			
-			// aapt resource value: 0x7F010177
-			public const int flyoutcontent.appbar = 2130772343;
+			// aapt resource value: 0x7F020177
+			public const int flyoutcontent.appbar = 2130837879;
 			
-			// aapt resource value: 0x7F010178
-			public const int flyoutcontent.recycler = 2130772344;
+			// aapt resource value: 0x7F020178
+			public const int flyoutcontent.recycler = 2130837880;
 			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
@@ -6402,17 +6405,17 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x1
 			public const int logo_only = 1;
 			
-			// aapt resource value: 0x7F010179
-			public const int main.appbar = 2130772345;
+			// aapt resource value: 0x7F020179
+			public const int main.appbar = 2130837881;
 			
-			// aapt resource value: 0x7F010182
-			public const int main.scrollview = 2130772354;
+			// aapt resource value: 0x7F020182
+			public const int main.scrollview = 2130837890;
 			
-			// aapt resource value: 0x7F010181
-			public const int main.tablayout = 2130772353;
+			// aapt resource value: 0x7F020181
+			public const int main.tablayout = 2130837889;
 			
-			// aapt resource value: 0x7F010180
-			public const int main.toolbar = 2130772352;
+			// aapt resource value: 0x7F020180
+			public const int main.toolbar = 2130837888;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
@@ -6678,14 +6681,14 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x7F0C0069
 			public const int select_dialog_listview = 2131492969;
 			
-			// aapt resource value: 0x7F010183
-			public const int shellcontent.appbar = 2130772355;
+			// aapt resource value: 0x7F020183
+			public const int shellcontent.appbar = 2130837891;
 			
-			// aapt resource value: 0x7F010185
-			public const int shellcontent.scrollview = 2130772357;
+			// aapt resource value: 0x7F020185
+			public const int shellcontent.scrollview = 2130837893;
 			
-			// aapt resource value: 0x7F010184
-			public const int shellcontent.toolbar = 2130772356;
+			// aapt resource value: 0x7F020184
+			public const int shellcontent.toolbar = 2130837892;
 			
 			// aapt resource value: 0x7F0C006A
 			public const int shortcut = 2131492970;
@@ -6693,8 +6696,8 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x1
 			public const int slide = 1;
 			
-			// aapt resource value: 0x7F010002
-			public const int sliding_tabs = 2130771970;
+			// aapt resource value: 0x7F020002
+			public const int sliding_tabs = 2130837506;
 			
 			// aapt resource value: 0x7F0C006B
 			public const int smallLabel = 2131492971;
@@ -6810,8 +6813,8 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x1
 			public const int title_view = 1;
 			
-			// aapt resource value: 0x7F010003
-			public const int toolbar = 2130771971;
+			// aapt resource value: 0x7F020003
+			public const int toolbar = 2130837507;
 			
 			// aapt resource value: 0x7F0C0084
 			public const int top = 2131492996;
@@ -6855,8 +6858,8 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x7F0C007D
 			public const int volume_item_container = 2131492989;
 			
-			// aapt resource value: 0x7F010004
-			public const int webview = 2130771972;
+			// aapt resource value: 0x7F020004
+			public const int webview = 2130837508;
 			
 			// aapt resource value: 0x1
 			public const int wide = 1;
@@ -7032,11 +7035,11 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x7F0F001A
 			public const int abc_select_dialog_material = 2131689498;
 			
-			// aapt resource value: 0x7F020004
-			public const int activity_webview = 2130837508;
+			// aapt resource value: 0x7F030004
+			public const int activity_webview = 2130903044;
 			
-			// aapt resource value: 0x7F020071
-			public const int BottomTabLayout = 2130837617;
+			// aapt resource value: 0x7F030071
+			public const int BottomTabLayout = 2130903153;
 			
 			// aapt resource value: 0x1
 			public const int cast_expanded_controller_activity = 1;
@@ -7098,8 +7101,8 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x7F0F0028
 			public const int design_text_input_password_icon = 2131689512;
 			
-			// aapt resource value: 0x7F020072
-			public const int FlyoutContent = 2130837618;
+			// aapt resource value: 0x7F030072
+			public const int FlyoutContent = 2130903154;
 			
 			// aapt resource value: 0x1
 			public const int libraries_social_licenses_license = 1;
@@ -7188,8 +7191,8 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x1
 			public const int place_autocomplete_progress = 1;
 			
-			// aapt resource value: 0x7F020073
-			public const int RootLayout = 2130837619;
+			// aapt resource value: 0x7F030073
+			public const int RootLayout = 2130903155;
 			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
@@ -7200,17 +7203,17 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x7F0F003A
 			public const int select_dialog_singlechoice_material = 2131689530;
 			
-			// aapt resource value: 0x7F020074
-			public const int ShellContent = 2130837620;
+			// aapt resource value: 0x7F030074
+			public const int ShellContent = 2130903156;
 			
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
 			
-			// aapt resource value: 0x7F020002
-			public const int Tabbar = 2130837506;
+			// aapt resource value: 0x7F030002
+			public const int Tabbar = 2130903042;
 			
-			// aapt resource value: 0x7F020003
-			public const int Toolbar = 2130837507;
+			// aapt resource value: 0x7F030003
+			public const int Toolbar = 2130903043;
 			
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
@@ -7231,14 +7234,14 @@ namespace SignBuzz.Droid
 		public partial class Mipmap
 		{
 			
-			// aapt resource value: 0x7F030002
-			public const int icon = 2130903042;
+			// aapt resource value: 0x7F040002
+			public const int icon = 2130968578;
 			
-			// aapt resource value: 0x7F030003
-			public const int icon_round = 2130903043;
+			// aapt resource value: 0x7F040003
+			public const int icon_round = 2130968579;
 			
-			// aapt resource value: 0x7F030004
-			public const int launcher_foreground = 2130903044;
+			// aapt resource value: 0x7F040004
+			public const int launcher_foreground = 2130968580;
 			
 			static Mipmap()
 			{
@@ -7714,8 +7717,8 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x7F160006
 			public const int Animation_Design_BottomSheetDialog = 2132148230;
 			
-			// aapt resource value: 0x7F050004
-			public const int AppCompatDialogStyle = 2131034116;
+			// aapt resource value: 0x7F060004
+			public const int AppCompatDialogStyle = 2131099652;
 			
 			// aapt resource value: 0x7F160007
 			public const int Base_AlertDialog_AppCompat = 2132148231;
@@ -8230,11 +8233,11 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x1
 			public const int CustomCastTheme = 1;
 			
-			// aapt resource value: 0x7F050002
-			public const int MainTheme = 2131034114;
+			// aapt resource value: 0x7F060002
+			public const int MainTheme = 2131099650;
 			
-			// aapt resource value: 0x7F050003
-			public const int MainTheme_Base = 2131034115;
+			// aapt resource value: 0x7F060003
+			public const int MainTheme_Base = 2131099651;
 			
 			// aapt resource value: 0x7F1600AA
 			public const int Platform_AppCompat = 2132148394;
@@ -8319,6 +8322,9 @@ namespace SignBuzz.Droid
 			
 			// aapt resource value: 0x7F1600C5
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2132148421;
+			
+			// aapt resource value: 0x7F060005
+			public const int splash = 2131099653;
 			
 			// aapt resource value: 0x7F1600C6
 			public const int TextAppearance_AppCompat = 2132148422;
@@ -11620,8 +11626,8 @@ namespace SignBuzz.Droid
 		public partial class Xml
 		{
 			
-			// aapt resource value: 0x7F060002
-			public const int file_paths = 2131099650;
+			// aapt resource value: 0x7F070002
+			public const int file_paths = 2131165186;
 			
 			static Xml()
 			{

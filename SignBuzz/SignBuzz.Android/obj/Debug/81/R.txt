@@ -748,13 +748,13 @@ int drawable abc_textfield_search_default_mtrl_alpha 0x7f020050
 int drawable abc_textfield_search_material 0x7f020051
 int drawable abc_vector_test 0x7f020052
 int drawable avd_hide_password 0x7f020053
-int drawable avd_hide_password_1 0x7f020130
-int drawable avd_hide_password_2 0x7f020131
-int drawable avd_hide_password_3 0x7f020132
+int drawable avd_hide_password_1 0x7f020131
+int drawable avd_hide_password_2 0x7f020132
+int drawable avd_hide_password_3 0x7f020133
 int drawable avd_show_password 0x7f020054
-int drawable avd_show_password_1 0x7f020133
-int drawable avd_show_password_2 0x7f020134
-int drawable avd_show_password_3 0x7f020135
+int drawable avd_show_password_1 0x7f020134
+int drawable avd_show_password_2 0x7f020135
+int drawable avd_show_password_3 0x7f020136
 int drawable design_bottom_navigation_item_background 0x7f020055
 int drawable design_fab_background 0x7f020056
 int drawable design_ic_visibility 0x7f020057
@@ -968,12 +968,13 @@ int drawable notification_bg_low_pressed 0x7f020126
 int drawable notification_bg_normal 0x7f020127
 int drawable notification_bg_normal_pressed 0x7f020128
 int drawable notification_icon_background 0x7f020129
-int drawable notification_template_icon_bg 0x7f02012e
-int drawable notification_template_icon_low_bg 0x7f02012f
+int drawable notification_template_icon_bg 0x7f02012f
+int drawable notification_template_icon_low_bg 0x7f020130
 int drawable notification_tile_bg 0x7f02012a
 int drawable notify_panel_notification_icon_bg 0x7f02012b
-int drawable tooltip_frame_dark 0x7f02012c
-int drawable tooltip_frame_light 0x7f02012d
+int drawable splash 0x7f02012c
+int drawable tooltip_frame_dark 0x7f02012d
+int drawable tooltip_frame_light 0x7f02012e
 int id ALT 0x7f0c0032
 int id CTRL 0x7f0c0033
 int id FUNCTION 0x7f0c0034
@@ -1748,6 +1749,7 @@ int style Widget_Design_TabLayout 0x7f0d016a
 int style Widget_Design_TextInputLayout 0x7f0d0187
 int style Widget_MediaRouter_Light_MediaRouteButton 0x7f0d0009
 int style Widget_MediaRouter_MediaRouteButton 0x7f0d000a
+int style splash 0x7f0d0192
 int[] styleable ActionBar { 0x7f010023, 0x7f010025, 0x7f010026, 0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a, 0x7f01002b, 0x7f01002c, 0x7f01002d, 0x7f01002e, 0x7f01002f, 0x7f010030, 0x7f010031, 0x7f010032, 0x7f010033, 0x7f010034, 0x7f010035, 0x7f010036, 0x7f010037, 0x7f010038, 0x7f010039, 0x7f01003a, 0x7f01003b, 0x7f01003c, 0x7f01003d, 0x7f01003e, 0x7f01003f, 0x7f010085 }
 int styleable ActionBar_background 10
 int styleable ActionBar_backgroundSplit 12

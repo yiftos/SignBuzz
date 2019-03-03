@@ -23,7 +23,7 @@
         <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
       </intent-filter>
     </service>
-    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="SignBuzz" android:theme="@style/MainTheme" android:name="md588f8a6c7b1805e9c0ada327dbb610bf5.MainActivity">
+    <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="SignBuzz" android:launchMode="singleTop" android:theme="@style/splash" android:name="md588f8a6c7b1805e9c0ada327dbb610bf5.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
