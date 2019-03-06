@@ -12,7 +12,7 @@ namespace SignBuzz
     public partial class MainPage : ContentPage
     {
         // Track whether the user has authenticated.
-        bool authenticated = false;
+        bool authenticated = true;
 
         public MainPage()
         {

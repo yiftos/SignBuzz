@@ -2,10 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:SignBuzz"
-             x:Class="SignBuzz.MainPage">
-
-    <StackLayout>
-        <!-- Place new controls here -->
+             x:Class="SignBuzz.MainPage"
+             BackgroundColor="red">
+    <ScrollView>
+        <StackLayout>
+            <!-- Place new controls here -->
         <Label x:Name="welcomeLabel"  Text="Welcome To SignBuzz!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
@@ -19,5 +20,5 @@
             Clicked="loginButton_Clicked_Facebook"/>
         <Button x:Name="startLearning" Text="Start Learning" Clicked="OnNextPageButtonClicked"></Button>
     </StackLayout>
-
+    </ScrollView>
 </ContentPage>
