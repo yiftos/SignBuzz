@@ -13,7 +13,7 @@
 namespace SignBuzz.StartSection {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("StartSection\\StartSection2Page.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("StartSection/StartSection2Page.xaml")]
     public partial class StartSection2Page : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

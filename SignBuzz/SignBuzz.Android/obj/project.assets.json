@@ -1379,11 +1379,10 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
-        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -1448,7 +1447,6 @@
       "sha512": "vcX8ci+srBr5scnSKCUNNoFo5BQ6KjdfeJ5LCJQhvxncNkTy7w3pAWsnRJrsF9WBBdMiaQp0aOa3YRh1CDCc7A==",
       "type": "package",
       "path": "newtonsoft.json/10.0.2",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4459,7 +4457,6 @@
       "sha512": "iJw91U8iTBw5RqdK8lIHzDIc5M9vYH/JQbtJ5sIGm2CQGoO2Wh4l0hte/o55M6yrlz6MvaNxNK1dinB27ND7SA==",
       "type": "package",
       "path": "validation/2.2.8",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5451,34 +5448,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yoav\\.nuget\\packages\\": {}
+    "/Users/elisacks/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yoav\\source\\repos\\SignBuzz\\SignBuzz\\SignBuzz.Android\\SignBuzz.Android.csproj",
+      "projectUniqueName": "/Users/elisacks/Desktop/sadna/SignBuzz/SignBuzz/SignBuzz.Android/SignBuzz.Android.csproj",
       "projectName": "SignBuzz.Android",
-      "projectPath": "C:\\Users\\yoav\\source\\repos\\SignBuzz\\SignBuzz\\SignBuzz.Android\\SignBuzz.Android.csproj",
-      "packagesPath": "C:\\Users\\yoav\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yoav\\source\\repos\\SignBuzz\\SignBuzz\\SignBuzz.Android\\obj\\",
+      "projectPath": "/Users/elisacks/Desktop/sadna/SignBuzz/SignBuzz/SignBuzz.Android/SignBuzz.Android.csproj",
+      "packagesPath": "/Users/elisacks/.nuget/packages/",
+      "outputPath": "/Users/elisacks/Desktop/sadna/SignBuzz/SignBuzz/SignBuzz.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\yoav\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/elisacks/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid81"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\yoav\\source\\repos\\SignBuzz\\SignBuzz\\SignBuzz\\SignBuzz.csproj": {
-              "projectPath": "C:\\Users\\yoav\\source\\repos\\SignBuzz\\SignBuzz\\SignBuzz\\SignBuzz.csproj"
+            "/Users/elisacks/Desktop/sadna/SignBuzz/SignBuzz/SignBuzz/SignBuzz.csproj": {
+              "projectPath": "/Users/elisacks/Desktop/sadna/SignBuzz/SignBuzz/SignBuzz/SignBuzz.csproj"
             }
           }
         }

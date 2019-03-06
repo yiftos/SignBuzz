@@ -13,7 +13,7 @@
 namespace SignBuzz.Game1 {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Game1\\GameOnePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Game1/GameOnePage.xaml")]
     public partial class GameOnePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

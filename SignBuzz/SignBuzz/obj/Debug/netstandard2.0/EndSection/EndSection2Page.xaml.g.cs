@@ -13,7 +13,7 @@
 namespace SignBuzz.EndSection {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("EndSection\\EndSection2Page.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("EndSection/EndSection2Page.xaml")]
     public partial class EndSection2Page : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

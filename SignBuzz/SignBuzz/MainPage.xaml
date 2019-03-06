@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:SignBuzz"
@@ -14,7 +14,7 @@
         <Entry x:Name="nameEntry" Placeholder="Choose a nickname" />
         <Button x:Name="Submit" Text="submit" MinimumHeightRequest="30"
             Clicked="submit"/>
-        <Button x:Name="loginButton" Text="Sign in with Google" MinimumHeightRequest="30"
+        <Button x:Name="loginButton" Text="Sign in with Google Hahomo" MinimumHeightRequest="30"
             Clicked="loginButton_Clicked"/>
         <Button x:Name="loginButtonFacebook" Text="Sign in with Facebook" MinimumHeightRequest="30"
             Clicked="loginButton_Clicked_Facebook"/>
