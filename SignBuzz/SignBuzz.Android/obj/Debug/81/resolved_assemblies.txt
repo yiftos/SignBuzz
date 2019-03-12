@@ -7,6 +7,7 @@ C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\andro
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\android\assets\FFImageLoading.Svg.Platform.dll
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\android\assets\FFImageLoading.Transformations.dll
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\android\assets\FormsViewGroup.dll
+C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\android\assets\ImageCircle.Forms.Plugin.dll
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\android\assets\Java.Interop.dll
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\android\assets\Microsoft.Azure.Mobile.Client.dll
 C:\Users\yoav\source\repos\SignBuzz\SignBuzz\SignBuzz.Android\obj\Debug\81\android\assets\Microsoft.CSharp.dll

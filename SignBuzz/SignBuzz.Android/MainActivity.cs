@@ -30,8 +30,7 @@ namespace SignBuzz.Droid
                     if (user != null)
                     {
                         App.user = user;
-                        message = string.Format("you are now signed-in as {0}.",
-                            user.UserId);
+                        message = "Great You logged in!";
                         success = true;
                     }
                 }
@@ -43,8 +42,7 @@ namespace SignBuzz.Droid
                     if (user != null)
                     {
                         App.user = user;
-                        message = string.Format("you are now signed-in as {0}.",
-                            user.UserId);
+                        message = "Great You logged in!";
                         success = true;
                     }
                 }

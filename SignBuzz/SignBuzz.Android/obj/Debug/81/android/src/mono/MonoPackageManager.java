@@ -115,6 +115,7 @@ class MonoPackageManager_Resources {
 		"FFImageLoading.Svg.Platform.dll",
 		"FFImageLoading.Transformations.dll",
 		"FormsViewGroup.dll",
+		"ImageCircle.Forms.Plugin.dll",
 		"Microsoft.Azure.Mobile.Client.dll",
 		"Microsoft.WindowsAzure.Storage.dll",
 		"Newtonsoft.Json.dll",

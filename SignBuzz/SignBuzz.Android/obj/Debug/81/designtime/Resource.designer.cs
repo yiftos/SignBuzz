@@ -4910,6 +4910,9 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x7F090055
 			public const int avd_show_password = 2131296341;
 			
+			// aapt resource value: 0x7F010002
+			public const int Capture = 2130771970;
+			
 			// aapt resource value: 0x1
 			public const int cast_abc_scrubber_control_off_mtrl_alpha = 1;
 			
@@ -5147,14 +5150,92 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
+			// aapt resource value: 0x7F010003
+			public const int ex_a = 2130771971;
+			
+			// aapt resource value: 0x7F010004
+			public const int ex_b = 2130771972;
+			
+			// aapt resource value: 0x7F010005
+			public const int ex_c = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int ex_d = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int ex_e = 2130771975;
+			
+			// aapt resource value: 0x7F010008
+			public const int ex_f = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int ex_g = 2130771977;
+			
+			// aapt resource value: 0x7F010010
+			public const int ex_h = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int ex_i = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int ex_j = 2130771986;
+			
+			// aapt resource value: 0x7F010013
+			public const int ex_k = 2130771987;
+			
+			// aapt resource value: 0x7F010014
+			public const int ex_l = 2130771988;
+			
+			// aapt resource value: 0x7F010015
+			public const int ex_m = 2130771989;
+			
+			// aapt resource value: 0x7F010016
+			public const int ex_n = 2130771990;
+			
+			// aapt resource value: 0x7F010017
+			public const int ex_o = 2130771991;
+			
+			// aapt resource value: 0x7F010018
+			public const int ex_p = 2130771992;
+			
+			// aapt resource value: 0x7F010019
+			public const int ex_q = 2130771993;
+			
+			// aapt resource value: 0x7F010020
+			public const int ex_r = 2130772000;
+			
+			// aapt resource value: 0x7F010021
+			public const int ex_s = 2130772001;
+			
+			// aapt resource value: 0x7F010022
+			public const int ex_t = 2130772002;
+			
+			// aapt resource value: 0x7F010023
+			public const int ex_u = 2130772003;
+			
+			// aapt resource value: 0x7F010024
+			public const int ex_v = 2130772004;
+			
+			// aapt resource value: 0x7F010025
+			public const int ex_w = 2130772005;
+			
+			// aapt resource value: 0x7F010026
+			public const int ex_x = 2130772006;
+			
+			// aapt resource value: 0x7F010027
+			public const int ex_y = 2130772007;
+			
+			// aapt resource value: 0x7F010028
+			public const int ex_z = 2130772008;
+			
 			// aapt resource value: 0x1
 			public const int googleg_disabled_color_18 = 1;
 			
 			// aapt resource value: 0x1
 			public const int googleg_standard_color_18 = 1;
 			
-			// aapt resource value: 0x7F010003
-			public const int ic_arrow_back = 2130771971;
+			// aapt resource value: 0x7F010057
+			public const int ic_arrow_back = 2130772055;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -5933,14 +6014,95 @@ namespace SignBuzz.Droid
 			// aapt resource value: 0x1
 			public const int quantum_ic_volume_up_white_36 = 1;
 			
-			// aapt resource value: 0x7F010002
-			public const int splash = 2130771970;
+			// aapt resource value: 0x7F010029
+			public const int small_a = 2130772009;
+			
+			// aapt resource value: 0x7F010030
+			public const int small_b = 2130772016;
+			
+			// aapt resource value: 0x7F010031
+			public const int small_c = 2130772017;
+			
+			// aapt resource value: 0x7F010032
+			public const int small_d = 2130772018;
+			
+			// aapt resource value: 0x7F010033
+			public const int small_e = 2130772019;
+			
+			// aapt resource value: 0x7F010034
+			public const int small_f = 2130772020;
+			
+			// aapt resource value: 0x7F010035
+			public const int small_g = 2130772021;
+			
+			// aapt resource value: 0x7F010036
+			public const int small_h = 2130772022;
+			
+			// aapt resource value: 0x7F010037
+			public const int small_i = 2130772023;
+			
+			// aapt resource value: 0x7F010038
+			public const int small_j = 2130772024;
+			
+			// aapt resource value: 0x7F010039
+			public const int small_k = 2130772025;
+			
+			// aapt resource value: 0x7F010040
+			public const int small_l = 2130772032;
+			
+			// aapt resource value: 0x7F010041
+			public const int small_m = 2130772033;
+			
+			// aapt resource value: 0x7F010042
+			public const int small_n = 2130772034;
+			
+			// aapt resource value: 0x7F010043
+			public const int small_o = 2130772035;
+			
+			// aapt resource value: 0x7F010044
+			public const int small_p = 2130772036;
+			
+			// aapt resource value: 0x7F010045
+			public const int small_q = 2130772037;
+			
+			// aapt resource value: 0x7F010046
+			public const int small_r = 2130772038;
+			
+			// aapt resource value: 0x7F010047
+			public const int small_s = 2130772039;
+			
+			// aapt resource value: 0x7F010048
+			public const int small_t = 2130772040;
+			
+			// aapt resource value: 0x7F010049
+			public const int small_u = 2130772041;
+			
+			// aapt resource value: 0x7F010050
+			public const int small_v = 2130772048;
+			
+			// aapt resource value: 0x7F010051
+			public const int small_w = 2130772049;
+			
+			// aapt resource value: 0x7F010052
+			public const int small_x = 2130772050;
+			
+			// aapt resource value: 0x7F010053
+			public const int small_y = 2130772051;
+			
+			// aapt resource value: 0x7F010054
+			public const int small_z = 2130772052;
+			
+			// aapt resource value: 0x7F010055
+			public const int splash = 2130772053;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
 			
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
+			
+			// aapt resource value: 0x7F010056
+			public const int Z = 2130772054;
 			
 			static Drawable()
 			{

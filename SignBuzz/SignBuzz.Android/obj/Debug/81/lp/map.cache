@@ -6,6 +6,7 @@ FFImageLoading.Svg.Forms
 FFImageLoading.Svg.Platform
 FFImageLoading.Transformations
 FormsViewGroup
+ImageCircle.Forms.Plugin
 Microsoft.Azure.Mobile.Client
 Microsoft.WindowsAzure.Storage
 Newtonsoft.Json
@@ -51,10 +52,10 @@ Xamarin.Forms.Xaml
 Xamarin.GooglePlayServices.Basement
 Xamarin.GooglePlayServices.Tasks
 netstandard
+System.Collections
 System.Runtime.Numerics
 System.Xml.XmlDocument
 System.Xml.XDocument
-System.Collections
 System.Globalization
 System.Threading.Tasks
 System.Diagnostics.Debug
