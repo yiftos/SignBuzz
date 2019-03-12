@@ -98,6 +98,9 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <BundleResource Include="Resources\fa-solid-400.otf" />
+    <BundleResource Include="Resources\fa-brands-400.otf" />
+    <BundleResource Include="Resources\fa-regular-400.otf" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -177,5 +180,8 @@
       <Project>{E62109FA-CB75-4600-8320-76FE48C8A7AE}</Project>
       <Name>SignBuzz</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Capture.JPG" />
   </ItemGroup>
 </Project>

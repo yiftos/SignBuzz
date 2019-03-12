@@ -27,10 +27,8 @@
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
-                    <Button Grid.Row="0" Grid.Column="0" Text="Upload to Blob" Clicked="btnUpload_Clicked" x:Name="btnUpload" BackgroundColor="Green" TextColor="White" />
-                    <Button Grid.Row="0" Grid.Column="1" Text="send http" Clicked="sendHttp_Clicked" x:Name="sendHttp" BackgroundColor="Green" TextColor="White" />
+                    <Button Grid.Row="0" Text="Check yourself!" Clicked="btnUpload_Clicked" x:Name="btnUpload" BackgroundColor="Green" TextColor="White" />
                 </Grid>
-                <Editor x:Name="UploadedUrl" TextColor="Black" HeightRequest="85" Text="Image URL:" />
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

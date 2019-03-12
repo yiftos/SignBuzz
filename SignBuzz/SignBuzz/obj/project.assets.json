@@ -1024,6 +1024,18 @@
           "lib/netstandard2.0/Plugin.Media.dll": {}
         }
       },
+      "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll": {}
+        }
+      },
       "Xamarin.FFImageLoading/2.4.4.859": {
         "type": "package",
         "compile": {
@@ -4353,6 +4365,28 @@
         "xam.plugin.media.nuspec"
       ]
     },
+    "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
+      "sha512": "in+ZqtkN2MC7oF/bQWqr84M/n6drISzFEL5QFB6fKLwF2yshTZRnmLvyhXtFGOCfy9ZpIfY1sDjSc6r2mbEwTw==",
+      "type": "package",
+      "path": "xam.plugins.forms.imagecircle/3.0.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.dll",
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.xml",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.dll",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.xml",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.xml",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.dll",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.pri",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.xml",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.dll",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.xml",
+        "xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",
+        "xam.plugins.forms.imagecircle.nuspec"
+      ]
+    },
     "Xamarin.FFImageLoading/2.4.4.859": {
       "sha512": "/U71/oKIKL+ompfmdYsIYYi3+r3Sj+81zUxg29M1RuNPywKsPKbHIndGiRw8bEYi1CX6meeidIeBpetjnN/ETw==",
       "type": "package",
@@ -4730,6 +4764,7 @@
       "NETStandard.Library >= 2.0.3",
       "WindowsAzure.Storage >= 9.3.3",
       "Xam.Plugin.Media >= 4.0.1.5",
+      "Xam.Plugins.Forms.ImageCircle >= 3.0.0.5",
       "Xamarin.FFImageLoading.Forms >= 2.4.4.859",
       "Xamarin.FFImageLoading.Svg.Forms >= 2.4.4.859",
       "Xamarin.FFImageLoading.Transformations >= 2.4.4.859",
@@ -4794,6 +4829,10 @@
           "Xam.Plugin.Media": {
             "target": "Package",
             "version": "[4.0.1.5, )"
+          },
+          "Xam.Plugins.Forms.ImageCircle": {
+            "target": "Package",
+            "version": "[3.0.0.5, )"
           },
           "Xamarin.FFImageLoading.Forms": {
             "target": "Package",

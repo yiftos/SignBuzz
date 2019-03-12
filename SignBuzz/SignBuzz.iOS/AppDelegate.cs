@@ -25,6 +25,7 @@ namespace SignBuzz.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            ImageCircleRenderer.Init();
             App.Init(this);
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init();
             LoadApplication(new App());
